@@ -48,7 +48,7 @@ b3 = ax1.bar(x + width,  split,    width,
 ax1.set_xlabel("Weights Tensor")
 ax1.set_ylabel("Throughput (GB/s)")
 ax1.set_xticks(x)
-ax1.set_xticklabels(labels, rotation=20, ha="right", fontsize=11)
+ax1.set_xticklabels(labels,  rotation=20,ha="right", fontsize=13)
 ax1.set_ylim(0, max(split) * 1.35)
 
 # --- Line (right axis: compression ratio) ---

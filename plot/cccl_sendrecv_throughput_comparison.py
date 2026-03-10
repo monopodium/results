@@ -28,9 +28,9 @@ plt.rcParams.update(plot_common.params_line)
 plt.figure(figsize=(6, 5))
 
 n = 14  # plot up to 1024 MB, exclude last point (2048 MB)
-plt.plot(sizes_mb[:n], cccl_throughput_gbps[:n],        marker=plot_common.markers[0], color=plot_common.colors[0], label="CCCL")
+plt.plot(sizes_mb[:n], cccl_throughput_gbps[:n],        marker=plot_common.markers[0], color=plot_common.colors[2], label="CCCL")
 plt.plot(sizes_mb[:n], nccl_matched_throughput_gbps[:n], marker=plot_common.markers[1], color=plot_common.colors[1], label="NCCL (matched)")
-plt.plot(sizes_mb[:n], nccl_default_throughput_gbps[:n], marker=plot_common.markers[2], color=plot_common.colors[2], label="NCCL (default)")
+plt.plot(sizes_mb[:n], nccl_default_throughput_gbps[:n], marker=plot_common.markers[2], color=plot_common.colors[0], label="NCCL (default)")
 
 plt.xlabel("Tensor Size")
 plt.ylabel("Throughput (GB/s)")
@@ -46,4 +46,4 @@ plt.legend(loc="lower right", ncol=1)
 plt.tight_layout()
 
 output_dir = os.path.join(os.path.dirname(__file__), "../fig")
-plot_common.save_fig(output_dir, "sendrecv_throughput_comparison")
+plot_common.save_fig(output_dir, "cccl_sendrecv_throughput_comparison")

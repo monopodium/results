@@ -53,7 +53,7 @@ plt.xticks(tick_values, tick_labels, rotation=45, ha="right")
 plt.yticks([0, 25, 50, 75])
 plt.legend(loc="upper left", ncol=1)
 plt.tight_layout()
-plt.ylim(0, 75)
+plt.ylim(0, 80)
 
 output_dir = os.path.join(os.path.dirname(__file__), "../fig")
 plot_common.save_fig(output_dir, "p2p_split_send_vs_2baseline")
