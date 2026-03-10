@@ -1,0 +1,8 @@
+Input Token,nccl kv cache transfer latency (ms),cccl kv cache transfer latency (ms)
+7680,221,209
+10240,306,258
+15360,427,358
+25600,689,535
+51200,1441,1108
+76800,1970,1623
+102400,2637,2133

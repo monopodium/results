@@ -1,0 +1,6 @@
+Weights,Size (MB),Throughput(GB/s) baseline,Throughput(GB/s) encode_send,Throughput(GB/s) split_send,compression_ratio
+layers.linear_attn.in_proj_qkv.weight,32,32.4585,37.4678,40.6215,0.68194
+layers.linear_attn.in_proj_z.weight,16,39.4192,39.301,44.008,0.680209
+layers.linear_attn.out_proj.weight,16,39.4175,39.2798,43.7474,0.681966
+layers.self_attn.o_proj.weight,16,39.4255,39.2248,43.7553,0.681283
+layers.self_attn.q_proj.weight,32,40.7724,45.4959,52.6679,0.679906
