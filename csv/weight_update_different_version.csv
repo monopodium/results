@@ -1,0 +1,6 @@
+Weights Version,Throughput(GB/s) baseline,Throughput(GB/s) encode_send,Throughput(GB/s)split_send,compression_ratio
+20,45.4822,56.6334,66.6886,0.675406
+40,45.4822,56.4216,66.9449,0.675389
+60,45.4822,56.609,66.7037,0.675381
+80,45.4822,56.6146,66.7426,0.675423
+100,45.4822,56.6806,67.0906,0.67548

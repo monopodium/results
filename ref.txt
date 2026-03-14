@@ -1,0 +1,53 @@
+1. communication
+Accelerating Intra-Node GPU Communication: A Performance Model for Multi-Path Transfers
+GPU-Initiated Networking for NCCL
+Collective Communication for 100k+ GPUs
+Design and Optimization of GPU-Aware MPI Allreduce Using Direct Sendrecv Communication
+Highly Efficient Alltoall and Alltoallv Communication Algorithms for GPU Systems
+TCCL: Discovering Better Communication Paths for PCIe GPU Clusters
+Optimizing Allreduce Operations for Modern Heterogeneous Architectures with Multiple Processes per GPU
+Multi-GPU Communication Schemes for Iterative Solvers: When CPUs are Not in Charge
+NearFetch: Saving inter-module bandwidth in many-chip-module GPUs
+
+
+2. compression
+Rethinking Key-Value Cache Compression Techniques for Large Language Model Serving
+HyC-LoRA: Memory Efficient LoRA Fine-tuning with Hybrid Activation Compression
+SmallKV: Small Model Assisted Compensation of KV Cache Compression
+Evaluation and Optimization of Gradient Compression for Distributed Deep Learning
+A case for toggle-aware compression for GPU systems
+SpZip: Architectural Support for Effective Data Compression In GPUs
+GPU Texture Compression Everywhere
+MXSens: Sensitivity-Aware Mixed-Precision Quantization for Efficient LLM Inference
+A partition based gradient compression algorithm for distributed training in aiot
+
+
+3. compression communication
+quantization: Birder: Communication-Efficient 1-bit Adaptive
+Optimizer for Practical Distributed DNN Training
+
+COMPSO: Optimizing Gradient Compression for Distributed Training with Second-Order Optimizers
+
+Greedy Low-Rank Gradient Compression for Distributed Learning with Convergence Guarantees
+
+PHY: A performance-driven hybrid communication compression method for distributed training
+
+The Effectiveness of Compression for GPU-Accelerated Queries on Out-of-Memory Datasets
+
+ghZCCL: Advancing GPU-aware Collective Communications with Homomorphic Compression
+
+Near-lossless gradient compression for data-parallel distributed dnn training
+
+GRACE: A Compressed Communication Framework for Distributed Machine Learning
+
+On the Utility of Gradient Compression in Distributed Deep Learning
+
+Communication Compression for Decentralized
+Training
+
+AN EFFICIENT STATISTICAL-BASED GRADIENT COMPRESSION TECHNIQUE
+FOR DISTRIBUTED TRAINING SYSTEMS
+
+Lossless Data Compression for Improving the Performance of a GPU-Based Beamformer
+
+Ecco: Improving Memory Bandwidth and Capacity for LLMs via Entropy-aware Cache Compression

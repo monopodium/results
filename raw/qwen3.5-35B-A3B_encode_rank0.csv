@@ -1,0 +1,6 @@
+role,mode,size_bytes,size_pretty,gbps,gb_sec,iters,rank,world_size
+Client,sync,33554432,32.0 MB,364.0819,45.5102,100,0,2
+Client,sync,16777216,16.0 MB,316.7178,39.5897,100,0,2
+Client,sync,16777216,16.0 MB,315.3673,39.4209,100,0,2
+Client,sync,16777216,16.0 MB,315.6656,39.4582,100,0,2
+Client,sync,33554432,32.0 MB,366.6497,45.8312,100,0,2

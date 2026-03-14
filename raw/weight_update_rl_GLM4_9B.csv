@@ -1,0 +1,5 @@
+Weights,Size (MB),Throughput(GB/s)baseline,Throughput(GB/s) encode_send,Throughput(GB/s) split_send,compression_ratio
+"mlp.down_proj.weight  ",107,42.8318,51.3939,61.363,0.675255
+"gate_up_proj.weight ",214,45.4822,56.6806,67.0906,0.67548
+self_attn.o_proj.weight,32,40.8875,45.2081,52.9316,0.67578
+self_attn.q_proj.weight,32,40.9992,45.2397,52.6817,0.677489
