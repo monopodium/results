@@ -1,6 +1,3 @@
-import sys
-sys.path.insert(0, "/home/ubuntu/efs/shuangma/uep-results/Plot")
-
 import matplotlib.pyplot as plt
 import plot_common
 import csv
@@ -55,7 +52,7 @@ tick_values = [16*1024**2, 64*1024**2, 256*1024**2, 1024**3]
 tick_labels = ["16MB", "64MB", "256MB", "1GB"]
 plt.xticks(tick_values, tick_labels, rotation=45, ha="right")
 plt.ylim(0, 1)
-plt.legend(loc="lower right", ncol=1)
+plt.legend(loc="lower center", ncol=2, fontsize="medium")
 plt.tight_layout()
 
 output_dir = os.path.join(os.path.dirname(__file__), "../fig")

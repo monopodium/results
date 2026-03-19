@@ -1,9 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
-import sys
 import os
 
-sys.path.insert(0, "/home/ubuntu/efs/shuangma/uep-results/Plot")
 import plot_common
 
 input_tokens = [7680, 10240, 15360, 25600, 51200, 76800, 102400]

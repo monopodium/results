@@ -1,15 +1,19 @@
+import argparse
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import sys
 import os
 
-sys.path.insert(0, "/home/ubuntu/efs/shuangma/uep-results/Plot")
 import plot_common
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--show-encode-send", action="store_true", default=False,
+                    help="Include encode_send series in the plot (omitted by default)")
+args = parser.parse_args()
 
 plt.rcParams.update(plot_common.params_line)
 
-csv_path = "/home/ubuntu/efs/shuangma/results/csv/weight_update_rl_qwen3_5_35B_A3B.csv"
+csv_path = "/home/ubuntu/efs/shuangma/results/csv/weight_update_rl_qwen3.5_35B_A3B.csv"
 df = pd.read_csv(csv_path)
 df.columns = [c.strip() for c in df.columns]
 df["Weights"] = df["Weights"].str.strip()
@@ -30,20 +34,40 @@ split      = df[split_col].values
 ratio      = df[ratio_col].values
 
 x = np.arange(len(labels))
-width = 0.25
+
+if args.show_encode_send:
+    width = 0.25
+    offsets = [-width, 0, width]
+else:
+    width = 0.3
+    offsets = [-width/2, width/2]
 
 fig, ax1 = plt.subplots(figsize=(10, 5))
 
 # --- Bars (left axis: throughput) ---
-b1 = ax1.bar(x - width, baseline, width,
+bars_handles = []
+bars_labels_list = []
+
+b1 = ax1.bar(x + offsets[0], baseline, width,
              label="Baseline",
              color=plot_common.colors[0], hatch=plot_common.hatches[0])
-b2 = ax1.bar(x,          encode,   width,
-             label="Encode Send",
-             color=plot_common.colors[1], hatch=plot_common.hatches[1])
-b3 = ax1.bar(x + width,  split,    width,
+bars_handles.append(b1)
+bars_labels_list.append("Baseline")
+
+bi = 1
+if args.show_encode_send:
+    b2 = ax1.bar(x + offsets[bi], encode, width,
+                 label="Encode Send",
+                 color=plot_common.colors[1], hatch=plot_common.hatches[1])
+    bars_handles.append(b2)
+    bars_labels_list.append("Encode Send")
+    bi += 1
+
+b3 = ax1.bar(x + offsets[bi], split, width,
              label="Split Send",
              color=plot_common.colors[2], hatch=plot_common.hatches[2])
+bars_handles.append(b3)
+bars_labels_list.append("Split Send")
 
 ax1.set_xlabel("Weights Tensor")
 ax1.set_ylabel("Throughput (GB/s)")
@@ -61,10 +85,8 @@ ax2.set_ylabel("Compression Ratio")
 ax2.set_ylim(0, 1)
 
 # --- Legend: merge both axes ---
-bars_handles = [b1, b2, b3]
-bars_labels  = ["Baseline", "Encode Send", "Split Send"]
 ax1.legend(bars_handles + [line],
-           bars_labels + ["compression_ratio"],
+           bars_labels_list + ["compression_ratio"],
            loc="upper left", ncol=2)
 
 plt.tight_layout()

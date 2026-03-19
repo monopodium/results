@@ -1,11 +1,14 @@
-import sys
-sys.path.insert(0, "/home/ubuntu/efs/shuangma/uep-results/Plot")
-
+import argparse
 import matplotlib.pyplot as plt
 import plot_common
 import numpy as np
 import csv
 import os
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--show-encode-send", action="store_true", default=False,
+                    help="Include encode_send series in the plot (omitted by default)")
+args = parser.parse_args()
 
 # Read data from CSV
 data_file = os.path.join(os.path.dirname(__file__), "../csv/p2p_split_send_vs_2baseline_float8_e4m3fn.csv")
@@ -39,9 +42,11 @@ plt.rcParams.update(plot_common.params_line)
 
 plt.figure(figsize=(6, 5))
 
-plt.plot(data_sizes, baseline,    marker=plot_common.markers[0], color=plot_common.colors[0], label="Baseline")
-plt.plot(data_sizes, encode_send, marker=plot_common.markers[1], color=plot_common.colors[1], label="Encode Send")
-plt.plot(data_sizes, split_send,  marker=plot_common.markers[2], color=plot_common.colors[2], label="Split Send")
+idx = 0
+plt.plot(data_sizes, baseline,    marker=plot_common.markers[idx], color=plot_common.colors[idx], label="Baseline"); idx += 1
+if args.show_encode_send:
+    plt.plot(data_sizes, encode_send, marker=plot_common.markers[idx], color=plot_common.colors[idx], label="Encode Send"); idx += 1
+plt.plot(data_sizes, split_send,  marker=plot_common.markers[idx], color=plot_common.colors[idx], label="Split Send")
 
 plt.xlabel("Tensor Size")
 plt.ylabel("Throughput (GB/s)")

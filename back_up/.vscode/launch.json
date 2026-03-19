@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(gdbserver) NCCL rank0 - mpi_hello",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "/home/ubuntu/efs/shuangma/mpi_nccl_hello",
+      "MIMode": "gdb",
+      "cwd": "/home/ubuntu/efs/shuangma",
+      "miDebuggerServerAddress": "127.0.0.1:2345",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

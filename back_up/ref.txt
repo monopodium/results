@@ -1,0 +1,95 @@
+----------------------------------------------
+  blockSize=256  numPushes=32  processed=32/32
+    Wall time:      153.246 us
+    Throughput:     208815 items/s  (3.18626 MB/s)
+    Latency (ns):   min=7221  avg=8608  p50=8693  p99=9397  max=9423
+    Status:         PASS
+METRICS_JSON: {"blockSize": 256, "numPushes": 32, "processed": 32, "wall_us": 153.246, "items_per_sec": 208815, "throughput_MBps": 3.18626, "lat_min_ns": 7221, "lat_avg_ns": 8608, "lat_p50_ns": 8693, "lat_p99_ns": 9397, "lat_max_ns": 9423, "pass": true}
+
+----------------------------------------------
+  blockSize=256  numPushes=64  processed=64/64
+    Wall time:      79.368 us
+    Throughput:     806370 items/s  (12.3042 MB/s)
+    Latency (ns):   min=6863  avg=26410  p50=9354  p99=45023  max=45050
+    Status:         PASS
+METRICS_JSON: {"blockSize": 256, "numPushes": 64, "processed": 64, "wall_us": 79.368, "items_per_sec": 806370, "throughput_MBps": 12.3042, "lat_min_ns": 6863, "lat_avg_ns": 26410, "lat_p50_ns": 9354, "lat_p99_ns": 45023, "lat_max_ns": 45050, "pass": true}
+
+----------------------------------------------
+  blockSize=256  numPushes=128  processed=128/128
+    Wall time:      81.473 us
+    Throughput:     1.57107e+06 items/s  (23.9727 MB/s)
+    Latency (ns):   min=8659  avg=27465  p50=28720  p99=37925  max=37977
+    Status:         PASS
+METRICS_JSON: {"blockSize": 256, "numPushes": 128, "processed": 128, "wall_us": 81.473, "items_per_sec": 1.57107e+06, "throughput_MBps": 23.9727, "lat_min_ns": 8659, "lat_avg_ns": 27465, "lat_p50_ns": 28720, "lat_p99_ns": 37925, "lat_max_ns": 37977, "pass": true}
+
+----------------------------------------------
+  blockSize=256  numPushes=256  processed=256/256
+    Wall time:      81.559 us
+    Throughput:     3.13883e+06 items/s  (47.8948 MB/s)
+    Latency (ns):   min=10388  avg=38308  p50=40054  p99=51346  max=51427
+    Status:         PASS
+METRICS_JSON: {"blockSize": 256, "numPushes": 256, "processed": 256, "wall_us": 81.559, "items_per_sec": 3.13883e+06, "throughput_MBps": 47.8948, "lat_min_ns": 10388, "lat_avg_ns": 38308, "lat_p50_ns": 40054, "lat_p99_ns": 51346, "lat_max_ns": 51427, "pass": true}
+
+----------------------------------------------
+  blockSize=256  numPushes=512  processed=512/512
+    Wall time:      86.041 us
+    Throughput:     5.95065e+06 items/s  (90.7997 MB/s)
+    Latency (ns):   min=12245  avg=47874  p50=48305  p99=68930  max=69192
+    Status:         PASS
+METRICS_JSON: {"blockSize": 256, "numPushes": 512, "processed": 512, "wall_us": 86.041, "items_per_sec": 5.95065e+06, "throughput_MBps": 90.7997, "lat_min_ns": 12245, "lat_avg_ns": 47874, "lat_p50_ns": 48305, "lat_p99_ns": 68930, "lat_max_ns": 69192, "pass": true}
+
+----------------------------------------------
+  blockSize=256  numPushes=1024  processed=1024/1024
+    Wall time:      211.629 us
+    Throughput:     4.83866e+06 items/s  (73.832 MB/s)
+    Latency (ns):   min=10113  avg=79835  p50=75296  p99=144575  max=145745
+    Status:         PASS
+METRICS_JSON: {"blockSize": 256, "numPushes": 1024, "processed": 1024, "wall_us": 211.629, "items_per_sec": 4.83866e+06, "throughput_MBps": 73.832, "lat_min_ns": 10113, "lat_avg_ns": 79835, "lat_p50_ns": 75296, "lat_p99_ns": 144575, "lat_max_ns": 145745, "pass": true}
+
+----------------------------------------------
+  blockSize=256  numPushes=2048  processed=2048/2048
+    Wall time:      285.664 us
+    Throughput:     7.16926e+06 items/s  (109.394 MB/s)
+    Latency (ns):   min=11954  avg=97091  p50=105544  p99=144788  max=145346
+    Status:         PASS
+METRICS_JSON: {"blockSize": 256, "numPushes": 2048, "processed": 2048, "wall_us": 285.664, "items_per_sec": 7.16926e+06, "throughput_MBps": 109.394, "lat_min_ns": 11954, "lat_avg_ns": 97091, "lat_p50_ns": 105544, "lat_p99_ns": 144788, "lat_max_ns": 145346, "pass": true}
+
+----------------------------------------------
+  blockSize=256  numPushes=4096  processed=4096/4096
+    Wall time:      463.035 us
+    Throughput:     8.84598e+06 items/s  (134.979 MB/s)
+    Latency (ns):   min=12272  avg=91136  p50=96153  p99=113514  max=117128
+    Status:         PASS
+METRICS_JSON: {"blockSize": 256, "numPushes": 4096, "processed": 4096, "wall_us": 463.035, "items_per_sec": 8.84598e+06, "throughput_MBps": 134.979, "lat_min_ns": 12272, "lat_avg_ns": 91136, "lat_p50_ns": 96153, "lat_p99_ns": 113514, "lat_max_ns": 117128, "pass": true}
+
+----------------------------------------------
+  blockSize=256  numPushes=8192  processed=8192/8192
+    Wall time:      1427.37 us
+    Throughput:     5.73923e+06 items/s  (87.5738 MB/s)
+    Latency (ns):   min=11120  avg=156309  p50=167709  p99=178655  max=179563
+    Status:         PASS
+METRICS_JSON: {"blockSize": 256, "numPushes": 8192, "processed": 8192, "wall_us": 1427.37, "items_per_sec": 5.73923e+06, "throughput_MBps": 87.5738, "lat_min_ns": 11120, "lat_avg_ns": 156309, "lat_p50_ns": 167709, "lat_p99_ns": 178655, "lat_max_ns": 179563, "pass": true}
+
+----------------------------------------------
+  blockSize=256  numPushes=16384  processed=16384/16384
+    Wall time:      1647.33 us
+    Throughput:     9.94578e+06 items/s  (151.761 MB/s)
+    Latency (ns):   min=11333  avg=91258  p50=92527  p99=105200  max=108962
+    Status:         PASS
+METRICS_JSON: {"blockSize": 256, "numPushes": 16384, "processed": 16384, "wall_us": 1647.33, "items_per_sec": 9.94578e+06, "throughput_MBps": 151.761, "lat_min_ns": 11333, "lat_avg_ns": 91258, "lat_p50_ns": 92527, "lat_p99_ns": 105200, "lat_max_ns": 108962, "pass": true}
+
+----------------------------------------------
+  blockSize=256  numPushes=32768  processed=32768/32768
+    Wall time:      4817.24 us
+    Throughput:     6.80223e+06 items/s  (103.794 MB/s)
+    Latency (ns):   min=11930  avg=142601  p50=143449  p99=159135  max=188982
+    Status:         PASS
+METRICS_JSON: {"blockSize": 256, "numPushes": 32768, "processed": 32768, "wall_us": 4817.24, "items_per_sec": 6.80223e+06, "throughput_MBps": 103.794, "lat_min_ns": 11930, "lat_avg_ns": 142601, "lat_p50_ns": 143449, "lat_p99_ns": 159135, "lat_max_ns": 188982, "pass": true}
+
+----------------------------------------------
+  blockSize=256  numPushes=65536  processed=65536/65536
+    Wall time:      9460.62 us
+    Throughput:     6.92724e+06 items/s  (105.701 MB/s)
+    Latency (ns):   min=12732  avg=142090  p50=141801  p99=158467  max=183852
+    Status:         PASS
+METRICS_JSON: {"blockSize": 256, "numPushes": 65536, "processed": 65536, "wall_us": 9460.62, "items_per_sec": 6.92724e+06, "throughput_MBps": 105.701, "lat_min_ns": 12732, "lat_avg_ns": 142090, "lat_p50_ns": 141801, "lat_p99_ns": 158467, "lat_max_ns": 183852, "pass": true}

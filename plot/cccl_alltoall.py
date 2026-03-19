@@ -1,6 +1,3 @@
-import sys
-sys.path.insert(0, "/home/ubuntu/efs/shuangma/uep-results/Plot")
-
 import matplotlib.pyplot as plt
 import plot_common
 import numpy as np

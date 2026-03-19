@@ -1,6 +1,3 @@
-import sys
-sys.path.insert(0, "/home/ubuntu/efs/shuangma/uep-results/Plot")
-
 import matplotlib.pyplot as plt
 import plot_common
 import csv
@@ -56,7 +53,11 @@ tick_labels = ["256KB", "1MB", "8MB", "128MB", "1GB"]
 plt.xticks(tick_values, tick_labels, rotation=45, ha="right")
 plt.yticks([0, 25, 50, 75])
 plt.ylim(0, 80)
-plt.legend(loc="upper left", ncol=1)
+ax = plt.gca()
+handles, labels = ax.get_legend_handles_labels()
+leg1 = ax.legend(handles[:3], labels[:3], loc="upper left", ncol=1)
+ax.add_artist(leg1)
+ax.legend(handles[3:], labels[3:], loc="lower right", ncol=1)
 plt.tight_layout()
 
 output_dir = os.path.join(os.path.dirname(__file__), "../fig")

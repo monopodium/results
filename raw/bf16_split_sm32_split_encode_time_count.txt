@@ -1,0 +1,164 @@
+Setting up files limit...
+Current fd limit: soft=1048576, hard=1048576
+fd limit already at maximum
+Creating Engine with GPU index: 0, CPUs: 4
+RdmaDeviceManager: Found 16 RDMA device(s)
+  [0] rdmap85s0
+  [1] rdmap86s0
+  [2] rdmap87s0
+  [3] rdmap88s0
+  [4] rdmap110s0
+  [5] rdmap111s0
+  [6] rdmap112s0
+  [7] rdmap113s0
+  [8] rdmap135s0
+  [9] rdmap136s0
+  [10] rdmap137s0
+  [11] rdmap138s0
+  [12] rdmap160s0
+  [13] rdmap161s0
+  [14] rdmap162s0
+  [15] rdmap163s0
+RdmaDeviceManager: Initialization complete
+GPU 0 uses device 0 (rdmap85s0)
+GPU 0 uses device 1 (rdmap86s0)
+System assigned port: 36791
+[GreenContext] Created: 32 / 132 SMs on device 0 (requested 32, aligned to 32)
+Engine initialized for GPU 0
+Endpoint initialized successfully
+[Rank 0] Created p2p.Endpoint on GPU 0
+[Rank 0] Establishing connections with all peers...
+[Rank 0] Rank 1 is remote (IP: 172.31.39.21)
+Attempting to connect to 172.31.39.21Accept connection from a specific peer:0
+ via port 40091
+Waiting to accept incoming connection...
+Accepted connection fd=244 from 172.31.39.21:45522
+Connected to 172.31.39.21:40091 (fd=245)
+[Rank 0] Connected remotely to rank 1 for sending (conn_id=0)
+[Rank 0] Accepted remote connection from rank 1 (IP 172.31.39.21, GPU 0) for receiving (conn_id=1)
+[Rank 0] Full mesh established: 0 local connections, 1 remote connections
+[Rank 0] All connections established.
+UCCL Collective Benchmark — role: client
+Message sizes: 256 B, 1.0 KB, 4.0 KB, 16.0 KB, 64.0 KB, 256.0 KB, 1.0 MB, 4.0 MB, 8.0 MB, 16.0 MB, 32.0 MB, 64.0 MB, 128.0 MB, 256.0 MB, 512.0 MB, 1.0 GB
+Device: GPU | Local GPU idx: 0 | Iters: 10 | Dtype: bfloat16
+Using synchronous API (send/recv)
+[Client]     256 B :    0.00 Gbps |    0.00 GB/s
+[Client]    1.0 KB :    0.00 Gbps |    0.00 GB/s
+[Client]    4.0 KB :    0.02 Gbps |    0.00 GB/s
+[Client]   16.0 KB :    0.14 Gbps |    0.02 GB/s
+[Client]   64.0 KB :    0.67 Gbps |    0.08 GB/s
+[Client]  256.0 KB :    1.70 Gbps |    0.21 GB/s
+[Client]    1.0 MB :   19.86 Gbps |    2.48 GB/s
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=2695us, encode=3328us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=43us, encode=67us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=32us, encode=59us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=33us, encode=57us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=33us, encode=60us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=32us, encode=57us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=36us, encode=73us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=32us, encode=57us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=33us, encode=59us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=32us, encode=57us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=34us, encode=58us
+[Client]    4.0 MB :    6.86 Gbps |    0.86 GB/s
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=44us, encode=72us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=38us, encode=74us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=36us, encode=67us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=36us, encode=66us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=36us, encode=67us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=35us, encode=66us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=35us, encode=66us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=35us, encode=65us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=35us, encode=66us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=35us, encode=66us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=36us, encode=66us
+[Client]    8.0 MB :   13.46 Gbps |    1.68 GB/s
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=53us, encode=93us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=46us, encode=89us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=41us, encode=87us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=43us, encode=87us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=40us, encode=87us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=43us, encode=87us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=40us, encode=88us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=57us, encode=88us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=41us, encode=87us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=42us, encode=87us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=41us, encode=86us
+[Client]   16.0 MB :   25.63 Gbps |    3.20 GB/s
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=66us, encode=138us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=58us, encode=129us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=56us, encode=130us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=58us, encode=129us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=55us, encode=144us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=58us, encode=128us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=55us, encode=130us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=60us, encode=139us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=55us, encode=131us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=57us, encode=128us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=55us, encode=129us
+[Client]   32.0 MB :   61.40 Gbps |    7.68 GB/s
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=96us, encode=220us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=85us, encode=213us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=84us, encode=213us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=82us, encode=209us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=83us, encode=215us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=83us, encode=212us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=82us, encode=224us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=90us, encode=212us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=83us, encode=213us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=82us, encode=212us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=86us, encode=213us
+[Client]   64.0 MB :  121.00 Gbps |   15.13 GB/s
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=146us, encode=398us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=136us, encode=379us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=135us, encode=378us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=134us, encode=376us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=133us, encode=378us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=136us, encode=377us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=134us, encode=380us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=133us, encode=377us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=134us, encode=379us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=134us, encode=381us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=135us, encode=381us
+[Client]  128.0 MB :  275.23 Gbps |   34.40 GB/s
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=256us, encode=727us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=241us, encode=710us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=236us, encode=708us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=237us, encode=708us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=236us, encode=708us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=239us, encode=706us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=238us, encode=708us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=240us, encode=719us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=237us, encode=712us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=239us, encode=711us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=237us, encode=711us
+[Client]  256.0 MB :  393.85 Gbps |   49.23 GB/s
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=468us, encode=1398us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=448us, encode=1377us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=445us, encode=1373us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=446us, encode=1376us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=446us, encode=1375us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=447us, encode=1376us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=445us, encode=1374us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=447us, encode=1373us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=443us, encode=1371us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=445us, encode=1370us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=443us, encode=1371us
+[Client]  512.0 MB :  476.57 Gbps |   59.57 GB/s
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=886us, encode=2721us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=861us, encode=2701us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=861us, encode=2698us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=871us, encode=2715us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=862us, encode=2704us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=864us, encode=2707us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=861us, encode=2704us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=874us, encode=2705us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=862us, encode=2704us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=860us, encode=2699us
+[ERROR ip-172-31-42-123 217417 217417 compressSendRequestSplitFirst rdma/rdma_channel_group.h:444] compressSendRequestSplitFirst: split=857us, encode=2697us
+[Client]    1.0 GB :  480.03 Gbps |   60.00 GB/s
+[Client] Benchmark complete
+Benchmark completed successfully!
+Destroying Engine...
+Server closed connection: 172.31.39.21:40091
+Engine destroyed
