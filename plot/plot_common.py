@@ -3,6 +3,12 @@ from matplotlib import font_manager
 import numpy as np
 import os
 import sys
+
+# ---------------------------------------------------------------------------
+# Global display names – change these to rename labels across ALL figures
+# ---------------------------------------------------------------------------
+LABEL_SPLIT_SEND = "LZip-P2P"
+LABEL_CCCL = "LZip-NCCL"
 import seaborn as sns
 
 colors = [

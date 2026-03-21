@@ -38,7 +38,7 @@ plt.figure(figsize=(6, 5))
 
 plt.plot(data_sizes, nccl,       marker=plot_common.markers[0], color=plot_common.colors[0], label="NCCL")
 plt.plot(data_sizes, baseline,   marker=plot_common.markers[1], color=plot_common.colors[1], label="Baseline")
-plt.plot(data_sizes, split_send, marker=plot_common.markers[2], color=plot_common.colors[2], label="Split Send")
+plt.plot(data_sizes, split_send, marker=plot_common.markers[2], color=plot_common.colors[2], label=plot_common.LABEL_SPLIT_SEND)
 
 plt.xlabel("Tensor Size")
 plt.ylabel("Throughput (GB/s)")

@@ -23,7 +23,7 @@ plt.rcParams.update(plot_common.params_line)
 
 plt.figure(figsize=(6, 5))
 
-plt.plot(sizes_mb, cccl_throughput_gbps,         marker=plot_common.markers[0], color=plot_common.colors[2], label="CCCL")
+plt.plot(sizes_mb, cccl_throughput_gbps,         marker=plot_common.markers[0], color=plot_common.colors[2], label=plot_common.LABEL_CCCL)
 plt.plot(sizes_mb, nccl_matched_throughput_gbps,  marker=plot_common.markers[1], color=plot_common.colors[1], label="NCCL (matched)")
 plt.plot(sizes_mb, nccl_default_throughput_gbps,  marker=plot_common.markers[2], color=plot_common.colors[0], label="NCCL (default)")
 

@@ -61,10 +61,10 @@ if args.show_encode_send:
     bi += 1
 
 b3 = ax1.bar(x + offsets[bi], split, width,
-             label="Split Send",
+             label=plot_common.LABEL_SPLIT_SEND,
              color=plot_common.colors[2], hatch=plot_common.hatches[2])
 bars_handles.append(b3)
-bars_labels_list.append("Split Send")
+bars_labels_list.append(plot_common.LABEL_SPLIT_SEND)
 
 ax1.set_xlabel("Weights Version")
 ax1.set_ylabel("Throughput (GB/s)")

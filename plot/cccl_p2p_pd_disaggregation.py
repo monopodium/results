@@ -16,7 +16,7 @@ width = 0.35
 fig, ax = plt.subplots(figsize=(10, 4))
 
 ax.bar(x - width / 2, nccl_latency, width, label='NCCL', color=plot_common.colors[0], hatch=plot_common.hatches[0])
-ax.bar(x + width / 2, cccl_latency, width, label='CCCL', color=plot_common.colors[1], hatch=plot_common.hatches[1])
+ax.bar(x + width / 2, cccl_latency, width, label=plot_common.LABEL_CCCL, color=plot_common.colors[1], hatch=plot_common.hatches[1])
 
 ax.set_xlabel('Input Token')
 ax.set_ylabel('Latency (ms)')
