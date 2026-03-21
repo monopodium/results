@@ -1,0 +1,364 @@
+name,shape,dtype,Data size,size_bytes,comp_time_ms,decomp_time_ms,comp_throughput_gb_s,decomp_throughput_gb_s,compressed_bytes,compression_ratio
+decoder.final_layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.06,0.25,0.27,14320,0.874
+decoder.layers.0.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.064,0.059,0.25,0.28,14352,0.876
+decoder.layers.0.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.275,0.237,816.96,947.27,190384032,0.8484
+decoder.layers.0.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.173,0.141,647.91,797.77,95600688,0.8521
+decoder.layers.0.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.06,0.26,0.27,14320,0.874
+decoder.layers.0.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.07,0.06,0.24,0.27,14368,0.877
+decoder.layers.0.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.1,0.104,334.88,321.3,28545344,0.8507
+decoder.layers.0.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.06,0.052,0.15,0.18,8480,0.9201
+decoder.layers.0.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.063,0.063,0.26,0.26,14288,0.8721
+decoder.layers.0.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.103,0.106,365.48,355.57,32112288,0.8507
+decoder.layers.10.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.064,0.061,0.26,0.27,14448,0.8818
+decoder.layers.10.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.27,0.239,829.64,938.96,188565008,0.8403
+decoder.layers.10.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.17,0.139,658.67,809.58,94348960,0.8409
+decoder.layers.10.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.065,0.26,0.25,14320,0.874
+decoder.layers.10.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.072,0.064,0.23,0.26,14320,0.874
+decoder.layers.10.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.1,0.102,336.56,327.4,28382944,0.8459
+decoder.layers.10.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.059,0.047,0.16,0.19,8496,0.9219
+decoder.layers.10.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.071,0.059,0.23,0.28,14432,0.8809
+decoder.layers.10.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.102,0.105,370.94,358.81,32201824,0.8531
+decoder.layers.11.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.064,0.064,0.26,0.25,14416,0.8799
+decoder.layers.11.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.274,0.238,817.68,943.86,188596688,0.8405
+decoder.layers.11.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.171,0.138,655.18,812.37,94333504,0.8408
+decoder.layers.11.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.071,0.059,0.23,0.28,14320,0.874
+decoder.layers.11.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.063,0.26,0.26,14336,0.875
+decoder.layers.11.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.096,0.105,348.03,320.8,28179888,0.8398
+decoder.layers.11.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.06,0.047,0.15,0.2,8464,0.9184
+decoder.layers.11.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.071,0.06,0.23,0.27,14416,0.8799
+decoder.layers.11.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.103,0.109,366.19,345.88,31954384,0.8465
+decoder.layers.12.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.07,0.059,0.23,0.28,14400,0.8789
+decoder.layers.12.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.277,0.235,810.45,954.66,188622112,0.8406
+decoder.layers.12.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.171,0.139,654.87,807.33,94318192,0.8406
+decoder.layers.12.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.061,0.26,0.27,14320,0.874
+decoder.layers.12.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.068,0.06,0.24,0.28,14336,0.875
+decoder.layers.12.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.095,0.102,352.7,328.86,28224048,0.8411
+decoder.layers.12.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.059,0.047,0.16,0.2,8480,0.9201
+decoder.layers.12.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.065,0.062,0.25,0.26,14400,0.8789
+decoder.layers.12.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.104,0.106,364.47,357.1,32038816,0.8487
+decoder.layers.13.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.064,0.063,0.26,0.26,14384,0.8779
+decoder.layers.13.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.271,0.235,828.9,954.25,188687552,0.8409
+decoder.layers.13.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.174,0.139,645.29,807.83,94335312,0.8408
+decoder.layers.13.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.06,0.26,0.27,14304,0.873
+decoder.layers.13.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.065,0.059,0.25,0.28,14304,0.873
+decoder.layers.13.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.096,0.104,348.48,323.11,28242032,0.8417
+decoder.layers.13.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.064,0.047,0.14,0.2,8464,0.9184
+decoder.layers.13.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.064,0.065,0.25,0.25,14400,0.8789
+decoder.layers.13.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.108,0.107,348.02,353.05,32001152,0.8477
+decoder.layers.14.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.07,0.059,0.24,0.28,14384,0.8779
+decoder.layers.14.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.272,0.239,825.85,939.91,188692048,0.8409
+decoder.layers.14.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.175,0.139,640.21,809.04,94314304,0.8406
+decoder.layers.14.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.066,0.26,0.25,14320,0.874
+decoder.layers.14.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.071,0.06,0.23,0.28,14320,0.874
+decoder.layers.14.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.097,0.104,344.7,321.97,28267152,0.8424
+decoder.layers.14.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.064,0.047,0.14,0.19,8464,0.9184
+decoder.layers.14.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.07,0.059,0.23,0.28,14384,0.8779
+decoder.layers.14.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.104,0.106,363.96,357.66,31992560,0.8475
+decoder.layers.15.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.063,0.061,0.26,0.27,14352,0.876
+decoder.layers.15.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.272,0.234,826.09,957.63,188736912,0.8411
+decoder.layers.15.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.171,0.138,655.02,812.51,94334032,0.8408
+decoder.layers.15.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.065,0.06,0.25,0.27,14304,0.873
+decoder.layers.15.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.065,0.25,0.25,14304,0.873
+decoder.layers.15.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.094,0.106,356.56,317.05,28226928,0.8412
+decoder.layers.15.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.06,0.047,0.15,0.2,8480,0.9201
+decoder.layers.15.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.069,0.06,0.24,0.27,14384,0.8779
+decoder.layers.15.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.101,0.104,372.72,361.6,32075920,0.8497
+decoder.layers.16.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.071,0.059,0.23,0.28,14352,0.876
+decoder.layers.16.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.273,0.235,823.06,953.27,188732528,0.8411
+decoder.layers.16.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.17,0.142,661.5,791.19,94344032,0.8409
+decoder.layers.16.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.063,0.059,0.26,0.28,14304,0.873
+decoder.layers.16.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.064,0.26,0.26,14320,0.874
+decoder.layers.16.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.095,0.102,351.46,328.38,28263440,0.8423
+decoder.layers.16.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.065,0.047,0.14,0.2,8480,0.9201
+decoder.layers.16.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.064,0.065,0.26,0.25,14336,0.875
+decoder.layers.16.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.107,0.106,351.32,356.72,32092512,0.8502
+decoder.layers.17.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.068,0.059,0.24,0.28,14352,0.876
+decoder.layers.17.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.273,0.236,820.84,952.43,188544512,0.8402
+decoder.layers.17.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.172,0.139,653.16,809.43,94293232,0.8404
+decoder.layers.17.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.069,0.06,0.24,0.27,14304,0.873
+decoder.layers.17.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.059,0.26,0.28,14320,0.874
+decoder.layers.17.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.098,0.104,342.07,321.14,28238192,0.8416
+decoder.layers.17.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.068,0.047,0.14,0.2,8480,0.9201
+decoder.layers.17.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.063,0.061,0.26,0.27,14352,0.876
+decoder.layers.17.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.106,0.106,355.47,357.48,32082832,0.8499
+decoder.layers.18.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.063,0.062,0.26,0.26,14320,0.874
+decoder.layers.18.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.27,0.238,830.64,941.77,188628592,0.8406
+decoder.layers.18.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.173,0.139,647.21,808.07,94278976,0.8403
+decoder.layers.18.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.069,0.059,0.24,0.28,14304,0.873
+decoder.layers.18.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.069,0.059,0.24,0.28,14320,0.874
+decoder.layers.18.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.102,0.104,328.2,322.74,28374144,0.8456
+decoder.layers.18.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.059,0.052,0.16,0.18,8480,0.9201
+decoder.layers.18.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.064,0.059,0.26,0.28,14336,0.875
+decoder.layers.18.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.103,0.107,366.02,353.56,32136256,0.8513
+decoder.layers.19.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.064,0.062,0.26,0.27,14336,0.875
+decoder.layers.19.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.282,0.235,795.86,953.8,188547488,0.8402
+decoder.layers.19.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.171,0.137,657.46,820.0,94255104,0.8401
+decoder.layers.19.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.059,0.26,0.28,14288,0.8721
+decoder.layers.19.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.065,0.059,0.25,0.28,14320,0.874
+decoder.layers.19.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.096,0.104,348.16,321.87,28224960,0.8412
+decoder.layers.19.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.065,0.05,0.14,0.19,8496,0.9219
+decoder.layers.19.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.063,0.062,0.26,0.27,14320,0.874
+decoder.layers.19.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.101,0.104,374.66,361.88,32092112,0.8502
+decoder.layers.1.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.064,0.06,0.26,0.27,14432,0.8809
+decoder.layers.1.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.272,0.241,826.4,929.23,189263072,0.8434
+decoder.layers.1.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.169,0.14,663.58,802.39,94786000,0.8448
+decoder.layers.1.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.065,0.062,0.25,0.27,14320,0.874
+decoder.layers.1.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.069,0.062,0.24,0.26,14320,0.874
+decoder.layers.1.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.096,0.104,349.14,321.47,28334448,0.8444
+decoder.layers.1.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.067,0.047,0.14,0.2,8480,0.9201
+decoder.layers.1.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.063,0.06,0.26,0.27,14432,0.8809
+decoder.layers.1.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.108,0.106,349.84,356.37,32072112,0.8496
+decoder.layers.20.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.069,0.059,0.24,0.28,14320,0.874
+decoder.layers.20.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.271,0.24,827.0,936.38,188665776,0.8408
+decoder.layers.20.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.17,0.138,659.97,815.62,94278400,0.8403
+decoder.layers.20.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.066,0.26,0.25,14320,0.874
+decoder.layers.20.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.061,0.26,0.27,14320,0.874
+decoder.layers.20.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.096,0.103,347.92,326.73,28198256,0.8404
+decoder.layers.20.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.066,0.046,0.14,0.2,8416,0.9132
+decoder.layers.20.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.065,0.06,0.25,0.27,14320,0.874
+decoder.layers.20.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.108,0.104,349.92,363.27,32045280,0.8489
+decoder.layers.21.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.063,0.059,0.26,0.28,14320,0.874
+decoder.layers.21.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.275,0.237,815.04,945.05,188843504,0.8416
+decoder.layers.21.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.175,0.144,641.74,777.64,94250576,0.84
+decoder.layers.21.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.059,0.26,0.28,14320,0.874
+decoder.layers.21.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.063,0.062,0.26,0.26,14320,0.874
+decoder.layers.21.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.097,0.101,344.24,331.48,28446832,0.8478
+decoder.layers.21.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.06,0.047,0.15,0.2,8480,0.9201
+decoder.layers.21.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.07,0.059,0.23,0.28,14304,0.873
+decoder.layers.21.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.102,0.109,368.46,346.9,32206688,0.8532
+decoder.layers.22.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.068,0.059,0.24,0.28,14320,0.874
+decoder.layers.22.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.274,0.235,820.2,956.75,188941008,0.842
+decoder.layers.22.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.169,0.141,664.97,794.81,94250976,0.84
+decoder.layers.22.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.07,0.059,0.23,0.28,14304,0.873
+decoder.layers.22.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.069,0.06,0.24,0.27,14320,0.874
+decoder.layers.22.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.1,0.102,334.32,328.59,28190848,0.8402
+decoder.layers.22.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.059,0.047,0.16,0.2,8416,0.9132
+decoder.layers.22.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.064,0.065,0.26,0.25,14304,0.873
+decoder.layers.22.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.102,0.105,370.24,359.01,32019504,0.8482
+decoder.layers.23.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.071,0.059,0.23,0.28,14320,0.874
+decoder.layers.23.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.272,0.236,824.43,952.47,188813680,0.8414
+decoder.layers.23.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.171,0.139,657.41,809.43,94249440,0.84
+decoder.layers.23.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.065,0.059,0.25,0.28,14336,0.875
+decoder.layers.23.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.068,0.059,0.24,0.28,14336,0.875
+decoder.layers.23.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.097,0.104,344.52,324.14,28152288,0.839
+decoder.layers.23.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.06,0.046,0.15,0.2,8432,0.9149
+decoder.layers.23.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.069,0.059,0.24,0.28,14336,0.875
+decoder.layers.23.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.102,0.105,371.86,358.44,32066864,0.8495
+decoder.layers.24.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.069,0.059,0.24,0.28,14320,0.874
+decoder.layers.24.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.27,0.236,831.79,951.05,188865776,0.8417
+decoder.layers.24.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.17,0.139,661.22,805.06,94280320,0.8403
+decoder.layers.24.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.06,0.26,0.27,14320,0.874
+decoder.layers.24.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.068,0.061,0.24,0.27,14336,0.875
+decoder.layers.24.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.101,0.104,333.69,321.17,28236608,0.8415
+decoder.layers.24.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.059,0.053,0.16,0.17,8432,0.9149
+decoder.layers.24.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.07,0.059,0.23,0.28,14304,0.873
+decoder.layers.24.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.103,0.108,368.12,350.94,32049072,0.849
+decoder.layers.25.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.063,0.06,0.26,0.27,14288,0.8721
+decoder.layers.25.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.275,0.236,815.21,949.34,189082608,0.8426
+decoder.layers.25.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.17,0.139,659.56,808.65,94353936,0.841
+decoder.layers.25.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.063,0.26,0.26,14304,0.873
+decoder.layers.25.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.065,0.059,0.25,0.28,14320,0.874
+decoder.layers.25.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.096,0.102,349.62,327.94,28262992,0.8423
+decoder.layers.25.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.066,0.047,0.14,0.2,8416,0.9132
+decoder.layers.25.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.063,0.065,0.26,0.25,14304,0.873
+decoder.layers.25.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.107,0.106,353.71,356.51,32061856,0.8493
+decoder.layers.26.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.07,0.06,0.23,0.27,14304,0.873
+decoder.layers.26.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.276,0.235,814.0,953.37,188999520,0.8423
+decoder.layers.26.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.171,0.139,655.42,808.63,94375152,0.8412
+decoder.layers.26.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.065,0.059,0.25,0.28,14304,0.873
+decoder.layers.26.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.069,0.061,0.24,0.27,14304,0.873
+decoder.layers.26.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.105,0.102,319.17,330.22,28204624,0.8406
+decoder.layers.26.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.066,0.047,0.14,0.2,8432,0.9149
+decoder.layers.26.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.063,0.061,0.26,0.27,14288,0.8721
+decoder.layers.26.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.106,0.104,356.91,363.78,32071520,0.8496
+decoder.layers.27.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.07,0.059,0.23,0.28,14288,0.8721
+decoder.layers.27.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.27,0.236,831.65,950.95,188744336,0.8411
+decoder.layers.27.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.168,0.141,669.11,793.67,94352752,0.841
+decoder.layers.27.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.066,0.26,0.25,14304,0.873
+decoder.layers.27.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.07,0.061,0.23,0.27,14304,0.873
+decoder.layers.27.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.101,0.104,330.82,323.96,28176064,0.8397
+decoder.layers.27.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.059,0.052,0.16,0.18,8464,0.9184
+decoder.layers.27.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.063,0.059,0.26,0.28,14304,0.873
+decoder.layers.27.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.1,0.105,375.65,359.42,32150288,0.8517
+decoder.layers.28.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.064,0.062,0.26,0.26,14288,0.8721
+decoder.layers.28.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.277,0.237,809.55,948.79,188595392,0.8405
+decoder.layers.28.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.175,0.136,641.4,823.46,94302368,0.8405
+decoder.layers.28.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.07,0.061,0.23,0.27,14304,0.873
+decoder.layers.28.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.059,0.26,0.28,14320,0.874
+decoder.layers.28.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.103,0.107,325.26,314.99,28271328,0.8426
+decoder.layers.28.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.059,0.047,0.16,0.2,8464,0.9184
+decoder.layers.28.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.066,0.059,0.25,0.28,14288,0.8721
+decoder.layers.28.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.102,0.105,370.4,360.15,32166048,0.8521
+decoder.layers.29.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.065,0.059,0.25,0.28,14304,0.873
+decoder.layers.29.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.271,0.235,826.91,953.63,188345248,0.8393
+decoder.layers.29.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.176,0.137,638.39,821.43,94242816,0.84
+decoder.layers.29.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.06,0.26,0.27,14304,0.873
+decoder.layers.29.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.071,0.059,0.23,0.28,14320,0.874
+decoder.layers.29.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.101,0.102,332.69,329.49,28188304,0.8401
+decoder.layers.29.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.06,0.047,0.15,0.2,8448,0.9167
+decoder.layers.29.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.068,0.06,0.24,0.27,14320,0.874
+decoder.layers.29.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.101,0.105,374.75,360.17,32125568,0.851
+decoder.layers.2.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.069,0.059,0.24,0.28,14464,0.8828
+decoder.layers.2.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.271,0.238,829.01,941.72,188951296,0.842
+decoder.layers.2.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.172,0.138,654.19,814.96,94687840,0.8439
+decoder.layers.2.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.059,0.26,0.28,14320,0.874
+decoder.layers.2.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.063,0.06,0.26,0.27,14336,0.875
+decoder.layers.2.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.102,0.103,327.79,325.41,28284704,0.8429
+decoder.layers.2.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.064,0.051,0.15,0.18,8464,0.9184
+decoder.layers.2.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.064,0.062,0.26,0.27,14448,0.8818
+decoder.layers.2.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.104,0.106,364.64,355.14,32071296,0.8496
+decoder.layers.30.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.068,0.059,0.24,0.28,14304,0.873
+decoder.layers.30.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.271,0.236,827.36,952.47,188290976,0.8391
+decoder.layers.30.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.175,0.137,642.55,817.38,94171952,0.8393
+decoder.layers.30.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.069,0.06,0.24,0.27,14288,0.8721
+decoder.layers.30.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.069,0.06,0.24,0.27,14320,0.874
+decoder.layers.30.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.1,0.102,335.55,329.78,28280832,0.8428
+decoder.layers.30.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.064,0.047,0.14,0.2,8464,0.9184
+decoder.layers.30.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.064,0.059,0.26,0.28,14304,0.873
+decoder.layers.30.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.102,0.105,368.45,361.14,32146976,0.8516
+decoder.layers.31.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.063,0.061,0.26,0.27,14304,0.873
+decoder.layers.31.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.27,0.236,830.08,949.82,188315024,0.8392
+decoder.layers.31.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.175,0.137,642.72,816.53,94176480,0.8394
+decoder.layers.31.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.065,0.06,0.25,0.27,14288,0.8721
+decoder.layers.31.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.063,0.061,0.26,0.27,14304,0.873
+decoder.layers.31.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.098,0.104,341.57,323.93,28320448,0.844
+decoder.layers.31.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.06,0.047,0.15,0.19,8512,0.9236
+decoder.layers.31.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.063,0.066,0.26,0.25,14336,0.875
+decoder.layers.31.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.108,0.108,350.23,349.34,32307792,0.8559
+decoder.layers.32.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.07,0.059,0.23,0.28,14272,0.8711
+decoder.layers.32.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.27,0.236,831.78,952.74,188218224,0.8388
+decoder.layers.32.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.171,0.138,657.16,813.72,94126976,0.8389
+decoder.layers.32.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.06,0.25,0.27,14304,0.873
+decoder.layers.32.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.065,0.067,0.25,0.25,14304,0.873
+decoder.layers.32.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.097,0.102,344.34,327.49,28168000,0.8395
+decoder.layers.32.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.06,0.048,0.15,0.19,8480,0.9201
+decoder.layers.32.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.064,0.061,0.26,0.27,14304,0.873
+decoder.layers.32.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.102,0.104,370.37,361.58,32244992,0.8542
+decoder.layers.33.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.07,0.059,0.23,0.28,14288,0.8721
+decoder.layers.33.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.27,0.239,832.04,940.41,188294256,0.8391
+decoder.layers.33.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.171,0.138,655.22,814.88,94164976,0.8393
+decoder.layers.33.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.065,0.06,0.25,0.27,14288,0.8721
+decoder.layers.33.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.069,0.06,0.24,0.28,14304,0.873
+decoder.layers.33.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.098,0.104,341.95,323.42,28188976,0.8401
+decoder.layers.33.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.06,0.049,0.15,0.19,8432,0.9149
+decoder.layers.33.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.07,0.06,0.23,0.27,14288,0.8721
+decoder.layers.33.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.104,0.104,362.48,363.29,32150128,0.8517
+decoder.layers.34.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.064,0.06,0.26,0.27,14288,0.8721
+decoder.layers.34.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.274,0.237,820.19,946.48,188358224,0.8394
+decoder.layers.34.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.171,0.142,654.71,788.38,94186096,0.8395
+decoder.layers.34.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.063,0.059,0.26,0.28,14288,0.8721
+decoder.layers.34.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.064,0.26,0.26,14288,0.8721
+decoder.layers.34.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.098,0.106,341.4,316.5,28294304,0.8432
+decoder.layers.34.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.06,0.047,0.15,0.19,8432,0.9149
+decoder.layers.34.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.063,0.062,0.26,0.26,14288,0.8721
+decoder.layers.34.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.104,0.11,362.14,341.8,32032160,0.8486
+decoder.layers.35.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.07,0.059,0.24,0.28,14288,0.8721
+decoder.layers.35.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.269,0.236,834.72,951.49,188495904,0.84
+decoder.layers.35.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.177,0.139,634.6,809.09,94215568,0.8397
+decoder.layers.35.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.065,0.06,0.25,0.27,14288,0.8721
+decoder.layers.35.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.061,0.25,0.27,14288,0.8721
+decoder.layers.35.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.096,0.105,348.35,319.82,28308256,0.8437
+decoder.layers.35.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.059,0.054,0.16,0.17,8448,0.9167
+decoder.layers.35.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.065,0.059,0.25,0.28,14288,0.8721
+decoder.layers.35.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.103,0.109,364.89,346.91,32077872,0.8498
+decoder.layers.36.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.068,0.06,0.24,0.27,14288,0.8721
+decoder.layers.36.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.274,0.237,820.35,948.48,188752032,0.8412
+decoder.layers.36.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.17,0.14,661.49,801.75,94333328,0.8408
+decoder.layers.36.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.06,0.26,0.27,14304,0.873
+decoder.layers.36.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.07,0.06,0.23,0.27,14288,0.8721
+decoder.layers.36.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.103,0.103,327.0,325.04,28319104,0.844
+decoder.layers.36.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.06,0.05,0.15,0.19,8416,0.9132
+decoder.layers.36.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.064,0.066,0.26,0.25,14304,0.873
+decoder.layers.36.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.106,0.112,356.73,336.65,32097248,0.8503
+decoder.layers.37.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.063,0.062,0.26,0.27,14304,0.873
+decoder.layers.37.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.272,0.236,824.28,951.61,189261248,0.8434
+decoder.layers.37.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.172,0.138,653.9,812.78,94576736,0.8429
+decoder.layers.37.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.069,0.059,0.24,0.28,14272,0.8711
+decoder.layers.37.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.064,0.26,0.25,14304,0.873
+decoder.layers.37.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.098,0.105,343.11,320.71,28274176,0.8426
+decoder.layers.37.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.059,0.047,0.16,0.19,8432,0.9149
+decoder.layers.37.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.064,0.063,0.26,0.26,14288,0.8721
+decoder.layers.37.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.102,0.104,368.39,363.01,32070912,0.8496
+decoder.layers.38.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.068,0.059,0.24,0.28,14304,0.873
+decoder.layers.38.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.278,0.236,806.64,952.5,189881536,0.8462
+decoder.layers.38.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.174,0.138,646.36,812.59,94786720,0.8448
+decoder.layers.38.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.07,0.06,0.23,0.27,14304,0.873
+decoder.layers.38.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.07,0.059,0.24,0.28,14320,0.874
+decoder.layers.38.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.1,0.104,334.99,321.55,28280336,0.8428
+decoder.layers.38.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.06,0.047,0.15,0.2,8448,0.9167
+decoder.layers.38.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.064,0.065,0.26,0.25,14304,0.873
+decoder.layers.38.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.104,0.106,361.58,356.05,32069152,0.8495
+decoder.layers.39.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.064,0.06,0.26,0.27,14336,0.875
+decoder.layers.39.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.274,0.237,820.26,947.78,190658640,0.8497
+decoder.layers.39.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.173,0.137,648.69,819.06,94974320,0.8465
+decoder.layers.39.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.066,0.059,0.25,0.28,14288,0.8721
+decoder.layers.39.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.071,0.059,0.23,0.28,14304,0.873
+decoder.layers.39.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.099,0.109,339.85,307.11,28271232,0.8425
+decoder.layers.39.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.059,0.053,0.16,0.18,8400,0.9115
+decoder.layers.39.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.069,0.059,0.24,0.28,14288,0.8721
+decoder.layers.39.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.105,0.106,359.07,357.52,32018928,0.8482
+decoder.layers.3.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.071,0.06,0.23,0.27,14416,0.8799
+decoder.layers.3.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.278,0.236,807.31,948.99,189288128,0.8435
+decoder.layers.3.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.169,0.142,664.57,792.59,94690528,0.844
+decoder.layers.3.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.065,0.26,0.25,14336,0.875
+decoder.layers.3.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.069,0.061,0.24,0.27,14336,0.875
+decoder.layers.3.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.096,0.102,348.47,329.76,28298240,0.8434
+decoder.layers.3.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.061,0.05,0.15,0.18,8496,0.9219
+decoder.layers.3.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.071,0.061,0.23,0.27,14448,0.8818
+decoder.layers.3.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.104,0.104,362.43,362.32,32121536,0.8509
+decoder.layers.4.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.064,0.064,0.26,0.25,14432,0.8809
+decoder.layers.4.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.269,0.241,832.74,932.54,189015744,0.8423
+decoder.layers.4.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.169,0.142,663.34,792.41,94499936,0.8423
+decoder.layers.4.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.068,0.06,0.24,0.27,14368,0.877
+decoder.layers.4.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.06,0.26,0.27,14352,0.876
+decoder.layers.4.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.102,0.102,329.31,329.26,28533504,0.8504
+decoder.layers.4.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.059,0.047,0.16,0.2,8512,0.9236
+decoder.layers.4.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.069,0.059,0.24,0.28,14448,0.8818
+decoder.layers.4.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.102,0.104,369.92,364.6,32329920,0.8565
+decoder.layers.5.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.063,0.06,0.26,0.27,14448,0.8818
+decoder.layers.5.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.272,0.238,824.54,940.87,188859616,0.8416
+decoder.layers.5.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.174,0.139,644.23,806.4,94452464,0.8418
+decoder.layers.5.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.062,0.26,0.26,14336,0.875
+decoder.layers.5.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.064,0.26,0.26,14336,0.875
+decoder.layers.5.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.099,0.102,338.29,328.66,28245520,0.8418
+decoder.layers.5.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.066,0.049,0.14,0.19,8464,0.9184
+decoder.layers.5.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.067,0.06,0.24,0.27,14448,0.8818
+decoder.layers.5.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.104,0.106,363.21,357.18,32074880,0.8497
+decoder.layers.6.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.069,0.059,0.24,0.28,14432,0.8809
+decoder.layers.6.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.271,0.235,829.51,955.3,188712832,0.841
+decoder.layers.6.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.168,0.139,666.31,804.91,94464128,0.8419
+decoder.layers.6.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.069,0.06,0.24,0.27,14352,0.876
+decoder.layers.6.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.063,0.065,0.26,0.25,14352,0.876
+decoder.layers.6.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.095,0.102,352.04,328.33,28393568,0.8462
+decoder.layers.6.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.065,0.046,0.14,0.2,8480,0.9201
+decoder.layers.6.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.067,0.059,0.24,0.28,14432,0.8809
+decoder.layers.6.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.102,0.104,368.64,361.44,32171184,0.8522
+decoder.layers.7.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.069,0.062,0.24,0.27,14464,0.8828
+decoder.layers.7.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.274,0.24,819.87,934.04,189026128,0.8424
+decoder.layers.7.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.17,0.139,661.52,804.82,94542960,0.8426
+decoder.layers.7.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.069,0.059,0.24,0.28,14352,0.876
+decoder.layers.7.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.059,0.26,0.28,14320,0.874
+decoder.layers.7.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.096,0.103,349.31,326.63,28208144,0.8407
+decoder.layers.7.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.067,0.046,0.14,0.2,8448,0.9167
+decoder.layers.7.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.063,0.059,0.26,0.28,14464,0.8828
+decoder.layers.7.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.102,0.108,369.85,350.22,32063312,0.8494
+decoder.layers.8.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.064,0.062,0.26,0.26,14448,0.8818
+decoder.layers.8.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.272,0.235,823.67,952.92,188893280,0.8418
+decoder.layers.8.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.171,0.139,656.01,806.8,94449136,0.8418
+decoder.layers.8.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.068,0.06,0.24,0.27,14336,0.875
+decoder.layers.8.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.063,0.065,0.26,0.25,14352,0.876
+decoder.layers.8.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.101,0.104,331.66,324.17,28249920,0.8419
+decoder.layers.8.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.062,0.052,0.15,0.18,8448,0.9167
+decoder.layers.8.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.064,0.064,0.26,0.25,14448,0.8818
+decoder.layers.8.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.108,0.106,350.17,356.16,32029520,0.8485
+decoder.layers.9.mlp.linear_fc1.layer_norm.weight,[4096],float32,16.0 KB,16384,0.064,0.065,0.26,0.25,14432,0.8809
+decoder.layers.9.mlp.linear_fc1.weight,"[13696, 4096]",float32,214.0 MB,224395264,0.273,0.237,821.8,944.9,188775760,0.8413
+decoder.layers.9.mlp.linear_fc2.weight,"[4096, 6848]",float32,107.0 MB,112197632,0.169,0.139,662.87,807.87,94391232,0.8413
+decoder.layers.9.post_mlp.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.062,0.26,0.27,14304,0.873
+decoder.layers.9.post.self_attn.layernorm.weight,[4096],float32,16.0 KB,16384,0.064,0.06,0.26,0.27,14336,0.875
+decoder.layers.9.self_attention.linear_proj.weight,"[4096, 2048]",float32,32.0 MB,33554432,0.098,0.106,343.34,315.64,28244928,0.8418
+decoder.layers.9.self_attention.linear_qkv.bias,[2304],float32,9.0 KB,9216,0.061,0.047,0.15,0.2,8464,0.9184
+decoder.layers.9.self_attention.linear_qkv.layer_norm.weight,[4096],float32,16.0 KB,16384,0.068,0.059,0.24,0.28,14432,0.8809
+decoder.layers.9.self_attention.linear_qkv.weight,"[2304, 4096]",float32,36.0 MB,37748736,0.101,0.103,375.4,366.02,32053936,0.8491
+embedding.word.embeddings.weight,"[75776, 4096]",float32,1.2 GB,1241513984,1.635,1.034,759.56,1200.94,952057056,0.7669
+output.layer.weight,"[75776, 4096]",float32,1.2 GB,1241513984,1.719,1.073,722.26,1157.41,1090789744,0.8786
