@@ -45,7 +45,7 @@ tick_labels = ["512KB", "1MB", "4MB", "16MB", "64MB"]
 plt.xticks(tick_values, tick_labels, rotation=45, ha="right")
 plt.ylim(0, 550)
 plt.legend(loc="upper left", ncol=1)
-plt.title("DietGPU Float Codec (float8_e4m3fn)")
+plt.title("DietGPU Codec (float8_e4m3fn)")
 plt.tight_layout()
 
 output_dir = os.path.join(os.path.dirname(__file__), "../fig")

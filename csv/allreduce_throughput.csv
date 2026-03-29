@@ -1,0 +1,8 @@
+Data size,Throughput (GB/s) NCCL,Throughput (GB/s) Two-Shot,Throughput (GB/s) LZip Two-Shot
+4.0 MB,5.98,16.43,10.08
+8.0 MB,11.19,20.33,13.02
+16.0 MB,29.04,25.10,24.06
+32.0 MB,30.44,30.31,33.16
+64.0 MB,35.37,32.81,40.04
+256.0 MB,40.38,38.58,49.37
+1.0 GB,42.76,40.99,54.68

@@ -23,38 +23,38 @@ def parse_size(s):
         return float(s[:-3]) * 1024 ** 3
     return float(s)
 
-data_sizes = []
+data_labels = []
 baseline = []
-gpu_buf_164mb = []
-gpu_buf_2gb = []
+lzip_p2p = []
+chunked_lzip_p2p = []
 
 with open(data_file, newline="") as f:
     reader = csv.DictReader(f)
     for row in reader:
-        data_sizes.append(parse_size(row["Data size"]))
+        data_labels.append(row["Data size"].strip())
         baseline.append(float(row["baseline"]))
-        gpu_buf_164mb.append(float(row["GPU Buffer 164 MB"]))
-        gpu_buf_2gb.append(float(row["GPU Buffer 2GB"]))
+        lzip_p2p.append(float(row["LZip-P2P"]))
+        chunked_lzip_p2p.append(float(row["Chunked LZip-P2P"]))
+
+x = list(range(len(data_labels)))
 
 plt.rcParams.update(plot_common.params_line)
 
 plt.figure(figsize=(6, 5))
 
 idx = 0
-plt.plot(data_sizes, baseline,      marker=plot_common.markers[idx], color=plot_common.colors[idx], label="Baseline"); idx += 1
-plt.plot(data_sizes, gpu_buf_164mb, marker=plot_common.markers[idx], color=plot_common.colors[idx], label="GPU Buffer 164 MB"); idx += 1
-plt.plot(data_sizes, gpu_buf_2gb,   marker=plot_common.markers[idx], color=plot_common.colors[idx], label="GPU Buffer 2 GB"); idx += 1
+l_baseline, = plt.plot(x, baseline,          marker=plot_common.markers[idx], color=plot_common.colors[idx], label="Baseline"); idx += 1
+l_lzip,     = plt.plot(x, lzip_p2p,          marker=plot_common.markers[idx], color=plot_common.colors[idx], label="LZip-P2P"); idx += 1
+l_chunked,  = plt.plot(x, chunked_lzip_p2p,  marker=plot_common.markers[idx], color=plot_common.colors[idx], label="Chunked LZip-P2P"); idx += 1
 
 plt.xlabel("Tensor Size")
 plt.ylabel("Throughput (GB/s)")
-plt.xscale("log", base=2)
 
-tick_values = [256*1024, 1024**2, 8*1024**2, 128*1024**2, 1024**3]
-tick_labels = ["256KB", "1MB", "8MB", "128MB", "1GB"]
-plt.xticks(tick_values, tick_labels, rotation=45, ha="right")
+tick_labels = [l.replace(".0 ", " ") for l in data_labels]
+plt.xticks(x, tick_labels, rotation=45, ha="right")
 plt.yticks([0, 25, 50, 75])
 plt.ylim(0, 80)
-plt.legend(loc="upper left", ncol=1)
+plt.legend(handles=[l_baseline, l_chunked, l_lzip], loc="lower right", ncol=1)
 plt.tight_layout()
 
 output_dir = os.path.join(os.path.dirname(__file__), "../fig")

@@ -1,4 +1,4 @@
-Data size,baseline,GPU Buffer 164 MB,GPU Buffer 2GB
+Data size,baseline,Chunked LZip-P2P,LZip-P2P
 256.0 KB,0.72,0.4969465007,0.71
 8.0 MB,32.46,31.01278526,30.47
 32.0 MB,42.03,52.28074757,52.29
