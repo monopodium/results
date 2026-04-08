@@ -26,8 +26,7 @@ plt.figure(figsize=(6, 5))
 
 n = 14  # plot up to 1024 MB, exclude last point (2048 MB)
 plt.plot(sizes_mb[:n], cccl_throughput_gbps[:n],        marker=plot_common.markers[0], color=plot_common.colors[2], label=plot_common.LABEL_CCCL)
-plt.plot(sizes_mb[:n], nccl_matched_throughput_gbps[:n], marker=plot_common.markers[1], color=plot_common.colors[1], label="NCCL (matched)")
-plt.plot(sizes_mb[:n], nccl_default_throughput_gbps[:n], marker=plot_common.markers[2], color=plot_common.colors[0], label="NCCL (default)")
+plt.plot(sizes_mb[:n], nccl_matched_throughput_gbps[:n], marker=plot_common.markers[1], color=plot_common.colors[1], label="NCCL")
 
 plt.xlabel("Tensor Size")
 plt.ylabel("Throughput (GB/s)")

@@ -14,18 +14,13 @@ nccl_matched_throughput_gbps = [
     2.891, 3.346, 3.603, 3.905, 3.968, 3.892,
     3.748, 3.649, 3.676, 3.51, 3.686
 ]
-nccl_default_throughput_gbps = [
-    3.586, 3.764, 3.984, 3.936, 3.924, 3.95,
-    3.6, 3.681, 3.64, 3.792, 3.488
-]
 
 plt.rcParams.update(plot_common.params_line)
 
 plt.figure(figsize=(6, 5))
 
 plt.plot(sizes_mb, cccl_throughput_gbps,         marker=plot_common.markers[0], color=plot_common.colors[2], label=plot_common.LABEL_CCCL)
-plt.plot(sizes_mb, nccl_matched_throughput_gbps,  marker=plot_common.markers[1], color=plot_common.colors[1], label="NCCL (matched)")
-plt.plot(sizes_mb, nccl_default_throughput_gbps,  marker=plot_common.markers[2], color=plot_common.colors[0], label="NCCL (default)")
+plt.plot(sizes_mb, nccl_matched_throughput_gbps,  marker=plot_common.markers[1], color=plot_common.colors[1], label="NCCL")
 
 plt.xlabel("Tensor Size")
 plt.ylabel("Throughput (GB/s)")

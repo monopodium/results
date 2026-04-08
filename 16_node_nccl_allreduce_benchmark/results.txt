@@ -1,0 +1,33 @@
+/home/ubuntu/miniconda3/envs/shuangma_env/lib/python3.12/site-packages/torch/_subclasses/functional_tensor.py:275: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:81.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+/home/ubuntu/miniconda3/envs/shuangma_env/lib/python3.12/site-packages/torch/_subclasses/functional_tensor.py:275: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:81.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+Benchmarking: NCCL AllReduce vs Compressed no-size-exchange (dietgpu, RS+AG)
+World size: 2, dtype: bfloat16, data: uniform[-1, 1]
+Compression: RS=ON, AG=ON
+
+====================================================================================================
+  CUDA Event Time (GPU-side latency)
+====================================================================================================
+      Size |       NCCL |     NoSize |  vs NCCL |   Ratio |   NCCL AlgBW | NoSize AlgBW |   NCCL BusBW | NoSize BusBW
+---------------------------------------------------------------------------------------------------------------------
+      4 MB |    0.705ms |    0.374ms |   188.2% |  65.0% |       5.95 GB |      11.20 GB |       5.95 GB |      11.20 GB
+      8 MB |    0.738ms |    0.517ms |   142.8% |  65.0% |      11.36 GB |      16.22 GB |      11.36 GB |      16.22 GB
+     16 MB |    0.582ms |    0.639ms |    91.0% |  65.0% |      28.85 GB |      26.24 GB |      28.85 GB |      26.24 GB
+     32 MB |    1.110ms |    0.927ms |   119.7% |  65.0% |      30.23 GB |      36.18 GB |      30.23 GB |      36.18 GB
+     64 MB |    1.830ms |    1.570ms |   116.5% |  65.0% |      36.67 GB |      42.73 GB |      36.67 GB |      42.73 GB
+    256 MB |    6.455ms |    5.597ms |   115.3% |  65.0% |      41.59 GB |      47.96 GB |      41.59 GB |      47.96 GB
+      1 GB |   24.670ms |   21.478ms |   114.9% |  65.0% |      43.52 GB |      49.99 GB |      43.52 GB |      49.99 GB
+
+====================================================================================================
+  Wall-Clock Time (includes CPU overhead, kernel launch, Python dispatch)
+====================================================================================================
+      Size |       NCCL |     NoSize |  vs NCCL |   Ratio |   CPU Ovhd |   NCCL AlgBW | NoSize AlgBW |   NCCL BusBW | NoSize BusBW
+----------------------------------------------------------------------------------------------------------------------------------
+      4 MB |    0.705ms |    0.375ms |   188.0% |  65.0% |   +0.000ms |       5.95 GB |      11.19 GB |       5.95 GB |      11.19 GB
+      8 MB |    0.738ms |    0.518ms |   142.6% |  65.0% |   +0.000ms |      11.36 GB |      16.20 GB |      11.36 GB |      16.20 GB
+     16 MB |    0.582ms |    0.640ms |    90.9% |  65.0% |   +0.000ms |      28.84 GB |      26.22 GB |      28.84 GB |      26.22 GB
+     32 MB |    1.110ms |    0.928ms |   119.6% |  65.0% |   +0.000ms |      30.23 GB |      36.16 GB |      30.23 GB |      36.16 GB
+     64 MB |    1.830ms |    1.571ms |   116.5% |  65.0% |   +0.000ms |      36.66 GB |      42.72 GB |      36.66 GB |      42.72 GB
+    256 MB |    6.455ms |    5.598ms |   115.3% |  65.0% |   +0.000ms |      41.58 GB |      47.95 GB |      41.58 GB |      47.95 GB
+      1 GB |   24.672ms |   21.480ms |   114.9% |  65.0% |   +0.002ms |      43.52 GB |      49.99 GB |      43.52 GB |      49.99 GB

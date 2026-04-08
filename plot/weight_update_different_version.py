@@ -39,7 +39,7 @@ else:
     width = 0.3
     offsets = [-width/2, width/2]
 
-fig, ax1 = plt.subplots(figsize=(10, 5))
+fig, ax1 = plt.subplots(figsize=(10, 4))
 
 # --- Bars (left axis: throughput) ---
 bars_handles = []
@@ -69,7 +69,7 @@ bars_labels_list.append(plot_common.LABEL_SPLIT_SEND)
 ax1.set_xlabel("Weights Version")
 ax1.set_ylabel("Throughput (GB/s)")
 ax1.set_xticks(x)
-ax1.set_xticklabels(labels, ha="right", fontsize=13)
+ax1.set_xticklabels(labels, ha="right")
 ax1.set_ylim(0, max(split) * 1.35)
 
 # --- Line (right axis: compression ratio) ---
@@ -84,7 +84,7 @@ ax2.set_ylim(0, 1)
 # --- Legend: merge both axes ---
 ax1.legend(bars_handles + [line],
            bars_labels_list + ["compression_ratio"],
-           loc="upper left", ncol=2)
+           loc="upper left", ncol=3)
 
 plt.tight_layout()
 

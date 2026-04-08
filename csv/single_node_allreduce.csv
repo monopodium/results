@@ -1,0 +1,7 @@
+Tensor Size,NCCL (Ring) GB/s,LZip Compression GB/s,Two Shot GB/s
+8 MB,7.41,6.39,15.35
+16 MB,9,8.69,18.42
+32 MB,10.77,11.58,20.25
+64 MB,21.01,26.6,20.07
+256 MB,23.24,29.26,21.97
+1 GB,23.53,30.63,22.67

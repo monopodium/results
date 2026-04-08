@@ -37,10 +37,10 @@ plt.rcParams.update(plot_common.params_line)
 plt.figure(figsize=(6, 5))
 
 idx = 0
-plt.plot(data_sizes, baseline,       marker=plot_common.markers[idx], color=plot_common.colors[idx], label="Baseline"); idx += 1
-plt.plot(data_sizes, encode_send,    marker=plot_common.markers[idx], color=plot_common.colors[idx], label="Encode Send"); idx += 1
+plt.plot(data_sizes, baseline,       marker=plot_common.markers[idx], color=plot_common.colors[idx], label="baseline"); idx += 1
+plt.plot(data_sizes, encode_send,    marker=plot_common.markers[idx], color=plot_common.colors[idx], label="encode-send"); idx += 1
 plt.plot(data_sizes, split_send,     marker=plot_common.markers[idx], color=plot_common.colors[idx], label=plot_common.LABEL_SPLIT_SEND); idx += 1
-plt.plot(data_sizes, naive_pipeline, marker=plot_common.markers[idx], color=plot_common.colors[idx], label="Naive Pipeline"); idx += 1
+plt.plot(data_sizes, naive_pipeline, marker=plot_common.markers[idx], color=plot_common.colors[idx], label="naive pipeline"); idx += 1
 
 plt.xlabel("Tensor Size")
 plt.ylabel("Throughput (GB/s)")
