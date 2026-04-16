@@ -45,7 +45,6 @@ tick_labels = [l.replace(".0 ", " ") for l in data_labels]
 plt.xticks(x, tick_labels, rotation=45, ha="right")
 plt.ylim(0, 50)
 plt.legend(loc="upper left", ncol=1)
-plt.title("P2P Throughput")
 plt.tight_layout()
 
 output_dir = os.path.join(os.path.dirname(__file__), "../fig")

@@ -35,7 +35,6 @@ plt.ylabel("Throughput (GB/s)")
 plt.xticks(x, size_labels, rotation=45, ha="right")
 plt.ylim(0, max(max(comp_throughput), max(decomp_throughput)) * 1.15)
 plt.legend(loc="upper left", ncol=1)
-plt.title("DietGPU Codec (bfloat16)")
 plt.tight_layout()
 
 output_dir = os.path.join(os.path.dirname(__file__), "../fig")

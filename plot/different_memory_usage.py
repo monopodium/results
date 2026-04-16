@@ -43,7 +43,7 @@ plt.rcParams.update(plot_common.params_line)
 plt.figure(figsize=(6, 5))
 
 idx = 0
-l_baseline, = plt.plot(x, baseline,          marker=plot_common.markers[idx], color=plot_common.colors[idx], label="Baseline"); idx += 1
+l_baseline, = plt.plot(x, baseline,          marker=plot_common.markers[idx], color=plot_common.colors[idx], label="UCCL-P2P"); idx += 1
 l_lzip,     = plt.plot(x, lzip_p2p,          marker=plot_common.markers[idx], color=plot_common.colors[idx], label="LZip-P2P"); idx += 1
 l_chunked,  = plt.plot(x, chunked_lzip_p2p,  marker=plot_common.markers[idx], color=plot_common.colors[idx], label="Chunked LZip-P2P"); idx += 1
 

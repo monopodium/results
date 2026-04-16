@@ -49,10 +49,10 @@ bars_handles = []
 bars_labels_list = []
 
 b1 = ax1.bar(x + offsets[0], baseline, width,
-             label="Baseline",
+             label="UCCL-P2P",
              color=plot_common.colors[0], hatch=plot_common.hatches[0])
 bars_handles.append(b1)
-bars_labels_list.append("Baseline")
+bars_labels_list.append("UCCL-P2P")
 
 bi = 1
 if args.show_encode_send:

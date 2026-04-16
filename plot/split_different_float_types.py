@@ -45,7 +45,7 @@ plt.plot(data_sizes, float16,       marker=plot_common.markers[1], color=plot_co
 plt.plot(data_sizes, float32,       marker=plot_common.markers[2], color=plot_common.colors[2], label="float32")
 plt.plot(data_sizes, float8_e4m3fn, marker=plot_common.markers[3], color=plot_common.colors[3], label="float8_e4m3fn")
 plt.plot(data_sizes, float8_e5m2,   marker=plot_common.markers[4], color=plot_common.colors[4], label="float8_e5m2")
-plt.plot(data_sizes, baseline,      marker=plot_common.markers[5], color="gray", linestyle="--", label="baseline")
+plt.plot(data_sizes, baseline,      marker=plot_common.markers[5], color="gray", linestyle="--", label="UCCL-P2P")
 
 plt.xlabel("Tensor Size")
 plt.ylabel("Throughput (GB/s)")

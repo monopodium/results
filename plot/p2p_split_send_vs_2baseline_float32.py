@@ -42,7 +42,7 @@ plt.rcParams.update(plot_common.params_line)
 plt.figure(figsize=(6, 5))
 
 idx = 0
-plt.plot(data_sizes, baseline,    marker=plot_common.markers[idx], color=plot_common.colors[idx], label="Baseline"); idx += 1
+plt.plot(data_sizes, baseline,    marker=plot_common.markers[idx], color=plot_common.colors[idx], label="UCCL-P2P"); idx += 1
 if args.show_encode_send:
     plt.plot(data_sizes, encode_send, marker=plot_common.markers[idx], color=plot_common.colors[idx], label="Encode Send"); idx += 1
 plt.plot(data_sizes, split_send,  marker=plot_common.markers[idx], color=plot_common.colors[idx], label=plot_common.LABEL_SPLIT_SEND)

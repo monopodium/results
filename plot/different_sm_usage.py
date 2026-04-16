@@ -43,7 +43,7 @@ plt.rcParams.update(plot_common.params_line)
 plt.figure(figsize=(6, 5))
 
 idx = 0
-plt.plot(data_sizes, baseline, marker=plot_common.markers[idx], color=plot_common.colors[idx], label="Baseline"); idx += 1
+plt.plot(data_sizes, baseline, marker=plot_common.markers[idx], color=plot_common.colors[idx], label="UCCL-P2P"); idx += 1
 plt.plot(data_sizes, sm_100,   marker=plot_common.markers[idx], color=plot_common.colors[idx], label="100% SM"); idx += 1
 plt.plot(data_sizes, sm_75,    marker=plot_common.markers[idx], color=plot_common.colors[idx], label="75% SM"); idx += 1
 plt.plot(data_sizes, sm_50,    marker=plot_common.markers[idx], color=plot_common.colors[idx], label="50% SM"); idx += 1
